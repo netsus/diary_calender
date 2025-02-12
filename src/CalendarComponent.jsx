@@ -5,6 +5,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import '../styles/calendar.css';
 
 const CalendarComponent = () => {
+
   return (
     <FullCalendar
       plugins={[dayGridPlugin]}
