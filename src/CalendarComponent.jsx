@@ -5,7 +5,6 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import '../styles/calendar.css';
 
 const CalendarComponent = () => {
-
   return (
     <FullCalendar
       plugins={[dayGridPlugin]}
@@ -17,10 +16,7 @@ const CalendarComponent = () => {
         end: 'dayGridMonth dayGridWeek',
       }}
       locale={'ko'}
-      events={[
-        { title: 'Event 1', date: '2024-06-01' },
-        { title: 'Event 2', date: '2024-06-07' },
-      ]}
+      events={[{ title: "Valentine's Day", date: '2025-02-14' }]}
     />
   );
 };
